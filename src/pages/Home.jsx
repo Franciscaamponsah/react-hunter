@@ -1,7 +1,3 @@
-import facebook from "../assets/facebook.png";
-import binance from "../assets/Binance.png";
-import google from "../assets/google.png";
-import airbnb from "../assets/airbnb.png";
 import Navbar from "../components/Navbar";
 import Description from "../components/Description";
 import Aim from "../components/Aim";
@@ -9,10 +5,11 @@ import Button from "../components/Button";
 import GrpImg from "../components/GrpImg";
 import GrpText from "../components/GrpText";
 import StagBtn from "../components/StagBtn";
+import TrustedCom from "../components/TrustedCom";
 
 const Home = () => {
   return (
-    <div className="h-screen w-full">
+    <div className="h-screen w-full font-Archivo">
       <div className=" w-full pt-8 bg-gradient-to-r from-violet-950 to-violet-500">
         <Navbar />
         <Description />
@@ -24,16 +21,8 @@ const Home = () => {
           <GrpText />
         </div>
       </div>
-      <div className="h-[10.19rem] w-full bg-[#E9E9EA]">
-       <div className="">
-        <div><p>Trusted by</p></div>
-       </div>
-       <div>
-       <img src={facebook}/>
-       <img src={binance}/>
-       <img src={google}/>
-       <img src={airbnb}/>
-       </div>
+      <div className="h-[10.19rem] w-full bg-[#E9E9EA] flex justify-center items-center">
+      <TrustedCom />
       </div>
     </div>
   );
