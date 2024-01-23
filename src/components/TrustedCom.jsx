@@ -6,7 +6,7 @@ import netflix from '../assets/Netflix.png'
 
 const TrustedCom = () => {
   return (
-    <div className='space-y-3 bg-red-600'>
+    <div className='space-y-3 '>
       <div className="flex justify-center items-center">
         <p className='text-[#333441]'>Trusted by:</p>
       </div>

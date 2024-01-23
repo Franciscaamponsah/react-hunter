@@ -6,6 +6,8 @@ import GrpImg from "../components/GrpImg";
 import GrpText from "../components/GrpText";
 import StagBtn from "../components/StagBtn";
 import TrustedCom from "../components/TrustedCom";
+import About from "../components/About";
+import Sign from "../components/Sign";
 
 const Home = () => {
   return (
@@ -24,6 +26,10 @@ const Home = () => {
       <div className="h-[10.19rem] w-full bg-[#E9E9EA] flex justify-center items-center">
       <TrustedCom />
       </div>
+      {/* <div className='bg=[#E9E9EA] w-full h-[40.63rem]'> */}
+    	  <About />
+        <Sign />
+    {/* </div> */}
     </div>
   );
 };
