@@ -8,11 +8,13 @@ import StagBtn from "../components/StagBtn";
 import TrustedCom from "../components/TrustedCom";
 import About from "../components/About";
 import Sign from "../components/Sign";
+import Features from "../components/Features";
+import Content from "../components/Content";
 
 const Home = () => {
   return (
     <div className="h-screen w-full font-Archivo">
-      <div className=" w-full pt-8 bg-gradient-to-r from-violet-950 to-violet-500">
+      <div className="w-full pt-8 bg-gradient-to-r from-violet-950 to-violet-500">
         <Navbar />
         <Description />
         <Aim />
@@ -30,6 +32,9 @@ const Home = () => {
     	  <About />
         <Sign />
     {/* </div> */}
+      <div className="w-full py-24">
+        <Features />
+      </div>
     </div>
   );
 };
