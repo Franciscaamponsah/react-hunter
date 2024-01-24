@@ -13,7 +13,7 @@ const StagBtn = () => {
       Email tracking
     </button>
     <button className="w-[12.563rem] flex justify-center items-center text-center text-[1rem] rounded-md bg-white font-medium leading-[1.5rem] tracking-[0.02rem] py-4 px-[0.75rem]">
-      Email verifier
+      Email verifierr
     </button>
     </div>
   </div>
