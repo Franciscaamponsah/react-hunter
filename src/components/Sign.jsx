@@ -13,7 +13,7 @@ const Sign = () => {
       <div> 
       <p className='text-white text-8xl uppercase'>"</p>
       </div>
-      <button className='rounded-lg py-2 px-4 mt-5 bg-yellow-300'>Sign Up Now!!</button>
+      <button className='rounded-lg py-2 px-4 mt-5 bg-yellow-300'>Sign Up Now!!!</button>
     </div>
     </div>
   )
