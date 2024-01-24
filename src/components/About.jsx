@@ -9,7 +9,7 @@ const About = () => {
          <img src={Circles} />
          <p className='font-bold text-3xl py-6'>Why you will choose us</p>
          <p className='font-normal'>Choose React Hunter for an unparalleled data intelligence experience. Our cutting-edge product offers a seamless blend of powerful domain and employee verification capabilities, coupled with a user-friendly interface and robust features. With React Hunter, you gain the advantage of accurate and reliable data insights, empowering you to make informed decisions, streamline workflows, and forge stronger business relationships. Elevate your verification processes and unlock the potential of data-driven success with React Hunter.</p>
-         <button className='bg-gradient-to-r from-purple-600 to-violet-700 rounded-lg py-2 px-4 text-white mt-5'>Sign up Now!!</button>
+         <button className='bg-gradient-to-r from-purple-600 to-violet-700 rounded-lg py-2 px-4 text-white mt-5'>Sign up Now!!!</button>
       </div>
       <div className="w-[40%]">
          <img src={Img}/>
