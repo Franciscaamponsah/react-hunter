@@ -2,23 +2,22 @@ import myLogo from "../assets/Hunter.png";
 
 const Navbar = () => {
   return (
-    <div className="bg border-white border items-center justify-center bg-white px-14 py-4 mx-14 rounded-full">
+    <div className="bg border-white border items-center justify-center bg-white px-14 py-4 mx-14 rounded-full hidden md:block">
       <header className="flex justify-between items-center">
         <div className="">
-          {/* <img src={Logo} />  */}
           <img src={myLogo} />
         </div>
         <ul className="flex space-x-24 list-none font-Archivo">
-          <li className="active:text-violet-700 focus:outline-none focus:ring focus:ring-violet-700  cursor-pointer">
+          <li className="hover:text-violet-700 active:text-violet-700 focus:outline-none focus:ring focus:text-violet-700  cursor-pointer">
             Home
           </li>
-          <li className="active:text-violet-700 focus:outline-none focus:ring focus:ring-violet-700 cursor-pointer">
+          <li className="hover:text-violet-700 active:text-violet-700 focus:outline-none focus:ring focus:text-violet-700 cursor-pointer">
             Features
           </li>
-          <li className="active:text-violet-700 focus:outline-none focus:ring focus:ring-violet-700 cursor-pointer">
+          <li className="hover:text-violet-700 active:text-violet-700 focus:outline-none focus:ring focus:text-violet-700 cursor-pointer">
             About Us
           </li>
-          <li className="active:text-violet-700 focus:outline-none focus:ring focus:ring-violet-700 cursor-pointer">
+          <li className="hover:text-violet-700 active:text-violet-700 focus:outline-none focus:ring focus:text-violet-700 cursor-pointer">
             Contact
           </li>
         </ul>

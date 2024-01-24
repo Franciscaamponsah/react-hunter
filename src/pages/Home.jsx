@@ -19,7 +19,7 @@ const Home = () => {
         <Description />
         <Aim />
         <Button />
-        <div className="flex justify-between mx-14">
+        <div className="flex justify-between mx-14 flex-col md:flex-row">
          <StagBtn />
           <GrpImg />
           <GrpText />
