@@ -18,7 +18,7 @@ const About = () => {
          <img className='w-1/2' src={Circle2}/>
       </div>
       {/* <div> */}
-        <p className='absolute right-[50%] px-4 py-2 bg-purple-700 bg-opacity-50 rounded-[100px]'>About</p>
+        <p className='absolute right-[50%] px-4 py-2 bg-purple-700 bg-opacity-50 rounded-[100px] text-[#5709E0]'>About</p>
       {/* </div> */}
     </div>
   )
