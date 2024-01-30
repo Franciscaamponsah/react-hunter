@@ -2,7 +2,7 @@ import React from "react";
 
 const Features = () => {
   return (
-    <div>
+    <div className="w-full py-24">
       <div className="flex justify-center items-center">
         <li className="w-[4.065rem] h-[1.5rem] flex justify-center items-center bg-[#7f23e275] text-[#5709E0] border-[rgba(127, 35, 226, 0.46)] py-6 px-14 rounded-full">
           Features

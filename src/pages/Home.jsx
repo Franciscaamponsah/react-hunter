@@ -10,6 +10,7 @@ import About from "../components/About";
 import Sign from "../components/Sign";
 import Features from "../components/Features";
 import Content from "../components/Content";
+import Testimonial from "../components/Testimonial";
 
 const Home = () => {
   return (
@@ -28,13 +29,10 @@ const Home = () => {
       <div className="h-[10.19rem] w-full bg-[#E9E9EA] flex justify-center items-center">
       <TrustedCom />
       </div>
-      {/* <div className='bg=[#E9E9EA] w-full h-[40.63rem]'> */}
+        <Features />
     	  <About />
         <Sign />
-    {/* </div> */}
-      <div className="w-full py-24">
-        <Features />
-      </div>
+        <Testimonial />
     </div>
   );
 };
