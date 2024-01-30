@@ -24,7 +24,7 @@ const Sign = () => {
         </div>
           <div className="flex justify-center mt-5">
             <button className="rounded-lg py-2 px-4 bg-yellow-300 ">
-              Sign Up Now!!!
+              Sign Up Now!!
             </button>
           </div>
     </div>
