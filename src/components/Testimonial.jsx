@@ -32,7 +32,7 @@ const Testimonial = () => {
       </div>
       <div className='relative'>
         <img className='ml-10' src={AfricanWoman} alt="" />
-        <img className='absolute left-[40%] ' src={Robot} alt="" />
+        <img className='absolute left-[40%] top-[20%]' src={Robot} alt="" />
         <img className='ml-10' src={Whiteman} alt="" />
         <img className='' src={Whiteman2} alt="" />
         <img className='' src={Whiteman3} alt="" />
