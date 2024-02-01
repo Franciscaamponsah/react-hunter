@@ -11,6 +11,7 @@ import Sign from "../components/Sign";
 import Features from "../components/Features";
 import Content from "../components/Content";
 import Testimonial from "../components/Testimonial";
+import Subscribe from "../components/Subscribe";
 
 const Home = () => {
   return (
@@ -33,6 +34,7 @@ const Home = () => {
     	  <About />
         <Sign />
         <Testimonial />
+        <Subscribe />
     </div>
   );
 };
